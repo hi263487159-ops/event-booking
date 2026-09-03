@@ -1,20 +1,10 @@
 /**
  * Supabase Configuration for EventPass
- * 
- * วิธีการนำค่ามาใส่:
- * 1. ไปที่แดชบอร์ด Supabase (https://supabase.com/dashboard)
- * 2. เลือกโปรเจกต์ของคุณ -> ไปที่รูปฟันเฟืองด้านซ้ายล่าง (Project Settings)
- * 3. คลิกเมนู 'API'
- * 4. คัดลอกค่า Project URL มาใส่ที่ SUPABASE_URL
- * 5. คัดลอกค่า 'anon' public key มาใส่ที่ SUPABASE_ANON_KEY
  */
 
 const SUPABASE_CONFIG = {
-  // ใส่ Project URL ของคุณที่นี่ (ตัวอย่าง: https://abcdefghijklm.supabase.co)
-  url: "",
-  
-  // ใส่ anon public key ของคุณที่นี่ (ตัวอย่าง: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...)
-  anonKey: ""
+  url: "https://ajfizmqkzompbjorbehg.supabase.co",
+  anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqZml6bXFrem9tcGJqb3JiZWhnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgzMTk5OTMsImV4cCI6MjEwMzg5NTk5M30.u4ibmOruq3g7wJgbm_tHecaV9pWb0O2dMzYPw-Do-C0"
 };
 
 // Initialize Supabase Client if credentials are provided
